@@ -1,6 +1,7 @@
 import React from 'react';
 import { Helmet } from 'react-helmet';
 import Analytics from './Analytics';
+import Footer from './Footer';
 
 function App() {
   return (
@@ -20,6 +21,7 @@ function App() {
 
       <h1>Mirage | En Construcción</h1>
       <p>Estamos construyendo una página web aquí. Vuelve pronto.</p>
+      <Footer />
     </div>
   );
 }
