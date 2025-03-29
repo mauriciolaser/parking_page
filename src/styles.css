@@ -2,51 +2,17 @@
 
 /* Estilos base */
 body {
+    width: 100vw;
     margin: 0;
     padding: 0;
     font-family: sans-serif;
+    overflow: hidden;
   }
   
   /* Clase contenedor responsivo */
   .container {
-    width: 100%;
-    margin: auto;
+    width: 100vw;
+    height: 100vh;
     padding: 1rem;
+    background-color: #FFD800;
   }
-  
-  /* Breakpoints basados en Tailwind */
-  /* sm: 640px */
-  @media (min-width: 640px) {
-    .container {
-      max-width: 640px;
-    }
-  }
-  
-  /* md: 768px */
-  @media (min-width: 768px) {
-    .container {
-      max-width: 768px;
-    }
-  }
-  
-  /* lg: 1024px */
-  @media (min-width: 1024px) {
-    .container {
-      max-width: 1024px;
-    }
-  }
-  
-  /* xl: 1280px */
-  @media (min-width: 1280px) {
-    .container {
-      max-width: 1280px;
-    }
-  }
-  
-  /* 2xl: 1536px */
-  @media (min-width: 1536px) {
-    .container {
-      max-width: 1536px;
-    }
-  }
-  

@@ -1,7 +1,7 @@
 import React from 'react';
 import { Helmet } from 'react-helmet';
 import Analytics from './Analytics';
-import Footer from './Footer';
+import Footer from './components/Footer';
 
 function App() {
   return (
