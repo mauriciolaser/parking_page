@@ -1,0 +1,9 @@
+// Archivo de configuración para el deploy
+
+export default {
+  FTP_HOST: '',
+  FTP_USER: '',
+  FTP_PASSWORD: '',
+  FTP_PORT: 1,
+  FTP_REMOTE_PATH: ''
+};
